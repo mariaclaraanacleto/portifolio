@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="shortcut icon" href="imagem/favicon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sejam Bem Vindos.</h1>
+        <h2>Meus Projetos</h2>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="https://mariaclaraanacleto.github.io/projeto-android/" target="_blank">Projeto Android</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://mariaclaraanacleto.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://mariaclaraanacleto.github.io/projeto-socias" target="_blank">Projeto Sociais</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Maria Clara Anacleto</h2>
+            <p>Sou uma jovem profissional em início de carreira na área de tecnologia, movida pela curiosidade, criatividade e pelo desejo constante de evolução. Desde que comecei a estudar desenvolvimento, percebi que programar vai muito além de escrever código — é sobre criar experiências, resolver problemas e transformar ideias em algo funcional e acessível.
+
+            Tenho me dedicado ao aprendizado de HTML e CSS, desenvolvendo projetos práticos que fortalecem minha base em estruturação, organização de layouts e construção de interfaces responsivas. Busco sempre escrever códigos limpos, bem estruturados e seguindo boas práticas, entendendo que a qualidade técnica é tão importante quanto o resultado visual.</p>
+
+            <p>Além da parte técnica, valorizo muito o processo criativo. Gosto de pensar na experiência do usuário, na harmonia das cores, na escolha das tipografias e na organização dos elementos na tela. Acredito que design e desenvolvimento caminham juntos para criar soluções realmente eficientes.</p>
+
+            <p>Sou responsável, organizada e comprometida com meus objetivos. Estou constantemente buscando novos aprendizados, explorando tendências da área e me desafiando a sair da zona de conforto para evoluir tanto profissional quanto pessoalmente.
+
+            Meu objetivo é conquistar minha primeira oportunidade na área de tecnologia, onde eu possa aplicar meus conhecimentos, adquirir experiência prática e crescer junto com a equipe e a empresa, contribuindo com dedicação, vontade de aprender e determinação.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    <footer>
+        <p>Desenvolvido por Maria Clara em Fevereiro de 2026</p>
+    </footer>
+</body>
+</html>
